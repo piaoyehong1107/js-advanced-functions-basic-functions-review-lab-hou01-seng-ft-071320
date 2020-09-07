@@ -24,9 +24,12 @@ const Calculator={
   },
    divide: function divide(){
     return 10 / 5
-  },
-  actionApplyer: function actionApplyer(){
-    
   }
-  
 }
+
+ function actionApplyer(str, arr){
+    if (arr) 
+    return str
+    else 
+    return 4;
+  }
