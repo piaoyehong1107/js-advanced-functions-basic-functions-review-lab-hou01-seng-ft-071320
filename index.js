@@ -27,6 +27,7 @@ const Calculator={
   }
 }
 
+<<<<<<< HEAD
  function actionApplyer(str, arr) {
   let a = str
 
@@ -36,3 +37,11 @@ const Calculator={
 
   return a
 }
+=======
+ function actionApplyer(str, arr()){
+    if (arr) 
+    return arr(str)
+    else 
+    return str;
+  }
+>>>>>>> a7574e08e424a1f82ede028ab50539baf0e5e471
