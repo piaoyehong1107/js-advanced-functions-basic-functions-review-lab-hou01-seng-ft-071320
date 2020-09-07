@@ -43,7 +43,6 @@ const Calculator={
   for (let i = 0; i < ray.length; i++ ){
     a = ray[i](a)
   }
-
   return a
 }
 
