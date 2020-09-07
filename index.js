@@ -42,7 +42,7 @@ const Calculator={
     if (arr != []) 
     let i=0 
     for(i=0,i<arr.length,i++){
-      arr[i][str]
+      result=arr[i][str]
     }
     else 
     return str;
