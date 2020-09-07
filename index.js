@@ -39,6 +39,7 @@ const Calculator={
 }
 
  function actionApplyer(str, arr){
+   let result=0;
     if (arr != []) 
     let i=0 
     for(i=0,i<arr.length,i++){
