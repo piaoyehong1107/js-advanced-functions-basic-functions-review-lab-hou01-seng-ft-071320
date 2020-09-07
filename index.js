@@ -38,15 +38,13 @@ const Calculator={
   return a
 }
 
- function actionApplyer(str, arr){
-   let result=0;
-   let i=0 
-    if (arr != []) 
-    
-    for(i=0,i<arr.length,i++){
-      result=arr[i][str]
-    }
-    else 
-    return str;
+ function actionApplyer(start, ray) {
+  let a = start
+
+  for (let i = 0; i < ray.length; i++ ){
+    a = ray[i](a)
   }
+
+  return a
+}
 
