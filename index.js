@@ -40,7 +40,7 @@ const Calculator={
 
  function actionApplyer(str, arr){
     if (arr != []) 
-    return arr(str)()
+    return arr()(str)
     else 
     return str;
   }
