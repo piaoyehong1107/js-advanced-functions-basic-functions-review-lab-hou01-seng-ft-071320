@@ -38,7 +38,7 @@ const Calculator={
   return a
 }
 
- function actionApplyer(str, arr{
+ function actionApplyer(str, arr){
     if (arr) 
     return arr(str)
     else 
