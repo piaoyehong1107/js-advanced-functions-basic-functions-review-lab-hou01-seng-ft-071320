@@ -39,7 +39,7 @@ const Calculator={
 }
 
  function actionApplyer(str, arr){
-    if (arr) 
+    if (arr != []) 
     return arr(str)
     else 
     return str;
