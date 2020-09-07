@@ -27,9 +27,12 @@ const Calculator={
   }
 }
 
- function actionApplyer(str, arr){
-    if (arr) 
-    return str
-    else 
-    return 4;
+ function actionApplyer(str, arr) {
+  let a = str
+
+  for (let i = 0; i < arr.length; i++ ){
+    a = arr[i](a)
   }
+
+  return a
+}
